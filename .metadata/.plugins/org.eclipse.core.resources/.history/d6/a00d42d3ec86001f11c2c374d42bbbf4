@@ -1,0 +1,17 @@
+package day2;
+
+public class Incremental_Decremental_Practise {
+
+	public static void main(String[] args)
+	{
+		
+		chr cr = 'A';
+		
+		if(Character.isAlphabetic(chr))
+		{
+			
+		}
+		
+	}
+
+}

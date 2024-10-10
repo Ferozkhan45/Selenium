@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My Suite">
+	<test name="Feroz">
+		<Classes>
+			<class name="com.TestNGDemo.Amazon.java">
+			</class>
+		</Classes>
+	</test>
+</suite>

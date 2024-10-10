@@ -1,0 +1,15 @@
+package day2;
+
+public class Incremental_Decremental_Practise {
+
+	public static void main(String[] args)
+	{
+		
+		int i = 0, j = 0;
+        
+		//-1 * -1(-2)* 1 *1(2) 
+		
+        System.out.println(--i * i++ * ++j * j++);
+	}
+
+}

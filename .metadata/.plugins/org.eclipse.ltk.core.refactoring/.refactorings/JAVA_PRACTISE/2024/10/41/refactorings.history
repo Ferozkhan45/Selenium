@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Day1.varaible_Practise&apos; to &apos;Variables_Practise&apos;&#x0D;&#x0A;- Original project: &apos;JAVA_PRACTISE&apos;&#x0D;&#x0A;- Original element: &apos;Day1.varaible_Practise&apos;&#x0D;&#x0A;- Renamed element: &apos;Day1.Variables_Practise&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;varaible_Practise&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Day1{varaible_Practise.java[varaible_Practise" matchStrategy="1" name="Variables_Practise" qualified="false" references="true" similarDeclarations="false" stamp="1728479901428" textual="false" version="1.0"/>
+</session>

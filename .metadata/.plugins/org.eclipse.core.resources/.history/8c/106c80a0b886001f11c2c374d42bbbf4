@@ -1,0 +1,16 @@
+package day2;
+
+public class TernaryOperator {
+
+	public static void main(String[] args) 
+	{
+	
+		// Var =( exp ) ? Result : Result 2;
+		
+		//String a = "Yes", b="no";
+		
+		int x = (20>10) ? 100 : 220;
+
+	}
+
+}
