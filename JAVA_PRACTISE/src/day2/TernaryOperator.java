@@ -9,6 +9,11 @@ public class TernaryOperator {
 		
 		//String a = "Yes", b="no";
 		
+		
+		
+		
+		
+		
 		int x = (20>100) ? 100 : 200;
 		System.out.println(x);
 
@@ -17,6 +22,7 @@ public class TernaryOperator {
 		
 		String res = (age>17) ? "Elgible" : "Not Elgible";
 		System.out.println(res);
+		
 		
 		
 		

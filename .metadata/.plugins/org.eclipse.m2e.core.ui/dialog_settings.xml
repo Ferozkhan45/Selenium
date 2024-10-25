@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Source\Feroz_SelinumDemo\webdriver\pom.xml"/>
+			<item value="D:\Source\Feroz_SelinumDemo\SWD"/>
+			<item value="D:\Source\Feroz_SelinumDemo\Tricentis"/>
 			<item value="D:\Source\Feroz_SelinumDemo\SeleniumWebDriver"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,16 +29,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="MyCucumberProject.MyCucumberProject"/>
-			<item value="MyMavenProject.MyMavenProject"/>
 		</list>
 		<list key="groupId">
-			<item value="MyCucumberProject"/>
-			<item value="MyMavenProject"/>
 		</list>
 		<list key="artifactId">
-			<item value="MyCucumberProject"/>
-			<item value="MyMavenProject"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

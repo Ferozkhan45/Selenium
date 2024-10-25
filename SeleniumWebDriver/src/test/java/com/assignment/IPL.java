@@ -11,28 +11,30 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class IPL {
 
 	public static void main(String[] args) {
-		
-		
+
 		WebDriver driver = new ChromeDriver();
-		
+
 		driver.get("https://www.iplt20.com/points-table/men/2024");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
-		
-	List<WebElement> Team =	driver.findElements(By.xpath("//h2[contains( @class, 'ih-pt-cont')]"));
-	
-	for(WebElement T:Team)
-	{
-		System.out.println(T.getText());
-	}
-		
-	
-	List<WebElement> Row =	driver.findElements(By.xpath("//*[@id=\"pointsdata\"]/tr"));
-	System.out.println("Totoal rows " +Row.size() );
-	
-	System.out.println(Row.get(9).getText());
-	
-	driver.close();
+
+		List<WebElement> Team = driver.findElements(By.xpath(
+				"//h2[contains(@class, 'ih-pt-cont') and contains(@class, 'mb-0') and contains(@class, 'ng-binding')]"));
+
+		for (WebElement T : Team) {
+
+			System.out.println(T.getText());
+
+		}
+
+		List<WebElement> rf = driver.findElements(By.xpath(
+				"//td[contains(@class, 'ih-pt-fb-w') and contains(@class, 'mob-hide') and contains(@class, 'ng-scope')]"));
+
+		for (WebElement R : rf) {
+			System.out.print(R.getText());
+		}
+
+		driver.close();
 
 	}
 
